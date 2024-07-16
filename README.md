@@ -9,9 +9,9 @@
 
 ***Fucntionality***
 
-1) Use MySQL database
+1) Home page
    
-  ![6](https://github.com/KhumaloKat/Body-following/assets/162409577/28cd9fea-0c87-445b-80ee-c7ab3a331567)
+  ![6](https://github.com/KhumaloKat/Assignment-4/blob/main/Demo%20Img/home%20.png)
 2) Use bootstrap
 
 
