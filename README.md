@@ -30,3 +30,11 @@
 4) Add Comments
     
  ![(7)](https://github.com/KhumaloKat/Assignment-4/blob/main/Demo%20Img/Comment.png)
+
+5) Edit Article
+
+ ![(7)](https://github.com/KhumaloKat/Assignment-4/blob/main/Demo%20Img/Edit%20Article.png)
+
+6) Delete Article
+
+![(7)](https://github.com/KhumaloKat/Assignment-4/blob/main/Demo%20Img/Delete%20Article.png)
