@@ -1,0 +1,28 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="mb-4">Add an Article</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="mb-3">
+            <label for="id_title" class="form-label">Title</label>
+            {{ form.title }}
+        </div>
+        <div class="mb-3">
+            <label for="id_image" class="form-label">Image</label>
+            {{ form.image }}
+        </div>
+        <div class="mb-3">
+            <label for="id_text" class="form-label">Text</label>
+            {{ form.text }}
+        </div>
+        <div class="mb-3">
+            <label for="id_category" class="form-label">Category</label>
+            {{ form.category }}
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button> <a href="/" class="btn btn-success">Back</a>
+    </form>
+</div>
+<br><br><br><br><br>
+{% endblock content %}
