@@ -10,16 +10,23 @@
 ***Fucntionality***
 
 1) Home page
+
    
   ![6](https://github.com/KhumaloKat/Assignment-4/blob/main/Demo%20Img/home%20.png)
-2) Use bootstrap
 
-
-3) A user should be able to create update and delete (CRUD) a blog article they have written
+  
+2) Article
    
- ![(7)](https://github.com/KhumaloKat/Body-following/assets/162409577/a055ee86-3349-4c19-a240-3e29629bdd5d)
+   
+ ![(7)](https://github.com/KhumaloKat/Assignment-4/blob/main/Demo%20Img/Article.png)
 
 
-4) Users should be able to add comments
+3) Add an  Article
+
+
+ ![(7)](https://github.com/KhumaloKat/Assignment-4/blob/main/Demo%20Img/Add%20Article.png)
+   
+
+4) Add Comments
     
- ![(7)](https://github.com/KhumaloKat/Body-following/assets/162409577/a055ee86-3349-4c19-a240-3e29629bdd5d)
+ ![(7)](https://github.com/KhumaloKat/Assignment-4/blob/main/Demo%20Img/Comment.png)
