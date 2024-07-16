@@ -23,7 +23,7 @@ class Article(models.Model):
 class Comment(models.Model):
     article = models.ForeignKey(Article, related_name='comments', on_delete=models.CASCADE)
     name = models.CharField(max_length=80)
-    text = models.TextField()  # Changed from 'body' to 'text'
+    text = models.TextField()  
     created_on = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
