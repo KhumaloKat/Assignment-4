@@ -1,0 +1,16 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row">
+        {% for product in products %}
+            <div class="col-md-4">
+                <a href="{% url 'article_detail' product.pk %}">
+                    <img src="{{ product.image.url }}" class="img-thumbnail" alt="{{ product.title }}">
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+<br><br>
+{% endblock content %}
