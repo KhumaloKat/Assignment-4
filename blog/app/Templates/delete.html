@@ -1,0 +1,15 @@
+<!-- delete_article_confirm.html -->
+{% extends 'index.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1>Delete Article</h1>
+    <p>Are you sure you want to delete "{{ article.title }}"?</p>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger">Confirm Delete</button>
+        <a href="{% url 'article_detail' article.pk %}" class="btn btn-success">Cancel</a>
+    </form>
+</div>
+{% endblock content %}
+ 
